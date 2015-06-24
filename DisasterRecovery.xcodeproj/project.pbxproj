@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920D8E601B3B19FB0014BB8D /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920D8E5E1B3B19FB0014BB8D /* ListTableViewController.m */; };
+		920D8E611B3B19FB0014BB8D /* ListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920D8E5F1B3B19FB0014BB8D /* ListTableViewController.xib */; };
 		9242D0FA1B39BD900086A81D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9242D0F91B39BD900086A81D /* main.m */; };
 		9242D0FD1B39BD900086A81D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9242D0FC1B39BD900086A81D /* AppDelegate.m */; };
 		9242D1001B39BD900086A81D /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9242D0FF1B39BD900086A81D /* LogInViewController.m */; };
@@ -43,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		920D8E5D1B3B19FB0014BB8D /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		920D8E5E1B3B19FB0014BB8D /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		920D8E5F1B3B19FB0014BB8D /* ListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewController.xib; sourceTree = "<group>"; };
 		9242D0F41B39BD900086A81D /* DisasterRecovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisasterRecovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9242D0F81B39BD900086A81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9242D0F91B39BD900086A81D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -137,6 +142,9 @@
 				9260F8241B39FE290067555C /* MainViewController.m */,
 				9260F8251B39FE290067555C /* MainViewController.xib */,
 				9242D0FB1B39BD900086A81D /* AppDelegate.h */,
+				920D8E5D1B3B19FB0014BB8D /* ListTableViewController.h */,
+				920D8E5E1B3B19FB0014BB8D /* ListTableViewController.m */,
+				920D8E5F1B3B19FB0014BB8D /* ListTableViewController.xib */,
 				9242D0FC1B39BD900086A81D /* AppDelegate.m */,
 				9242D0FE1B39BD900086A81D /* LogInViewController.h */,
 				9242D0FF1B39BD900086A81D /* LogInViewController.m */,
@@ -245,6 +253,7 @@
 				TargetAttributes = {
 					9242D0F31B39BD900086A81D = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = Y6PVC94L7V;
 					};
 					9242D10C1B39BD900086A81D = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -279,6 +288,7 @@
 				9242D1051B39BD900086A81D /* Images.xcassets in Resources */,
 				9242D11E1B39BE920086A81D /* LogInViewController.xib in Resources */,
 				9260F8271B39FE290067555C /* MainViewController.xib in Resources */,
+				920D8E611B3B19FB0014BB8D /* ListTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +310,7 @@
 				9242D0FD1B39BD900086A81D /* AppDelegate.m in Sources */,
 				9260F8261B39FE290067555C /* MainViewController.m in Sources */,
 				9242D0FA1B39BD900086A81D /* main.m in Sources */,
+				920D8E601B3B19FB0014BB8D /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +429,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -425,6 +438,7 @@
 				INFOPLIST_FILE = DisasterRecovery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -433,6 +447,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -441,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

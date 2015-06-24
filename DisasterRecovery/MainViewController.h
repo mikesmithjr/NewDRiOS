@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "sqlite3.h"
 
 @interface MainViewController : UIViewController
 
+-(IBAction)onAnimatoSelect:(id)sender;
+-(IBAction)onClientSelect:(id)sender;
+-(IBAction)onUserSelect:(id)sender;
+-(IBAction)onOnCallSelect:(id)sender;
 @end
